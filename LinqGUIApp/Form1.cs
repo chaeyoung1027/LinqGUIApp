@@ -12,6 +12,18 @@ namespace LinqGUIApp
 {
     public partial class Form1 : Form
     {
+        static private List<Product> products = new List<Product>()
+        {
+            new Product() { Name = "맥북", price =200000},
+            new Product() { Name = "메모장", price =2000},
+            new Product() { Name = "샤프", price =3000},
+            new Product() { Name = "노트", price =3000},
+            new Product() { Name = "웹캠", price =20000},
+            new Product() { Name = "스마트폰", price =2100000},
+            new Product() { Name = "껌", price =1000},
+            new Product() { Name = "가방", price =50000},
+
+        };
         public Form1()
         {
             InitializeComponent();
